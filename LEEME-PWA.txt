@@ -1,0 +1,15 @@
+MI DESPENSA - ACTUALIZACIÓN PWA
+
+Esta versión añade manifest, iconos y service worker para instalación como aplicación independiente y funcionamiento básico sin conexión.
+
+ACTUALIZACIÓN EN GITHUB:
+1. Abre el repositorio Mi-despensa.
+2. Sube y reemplaza index.html en la raíz.
+3. Añade manifest.webmanifest y sw.js en la raíz.
+4. Añade la carpeta icons completa con los cuatro PNG.
+5. Confirma los cambios en la rama main.
+6. Espera a que Pages termine el despliegue.
+7. En Samsung Internet, abre la web, recarga y usa el menú > Añadir página a > Pantalla Inicio.
+   Si ya existe un acceso directo antiguo, elimínalo primero y crea uno nuevo tras actualizar.
+
+Los datos de la app siguen guardándose en el dispositivo (IndexedDB con respaldo localStorage). No borres los datos del navegador sin exportar antes una copia JSON.
